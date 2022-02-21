@@ -1,0 +1,19 @@
+/* 
+    Las unidades REM son relativos al tamaño de fuente(font-size) definido en la etiqueta HTML.
+    1rem = 16px por defecto. 
+    
+    Las unidades EM son relativos al tamaño de fuente(font-size) del elemento padre que los contenga, en caso de que el elemento padre no 
+    tenga definido un tamaño de fuente entonces pasaria a ser relativo al tamaño de fuente de la etiqueta HTML.
+*/
+
+html {
+    font-size: 14px;
+}
+
+.caja {
+    font-size: 10px;
+}
+
+p {
+    font-size: 2em;
+}
