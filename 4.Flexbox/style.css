@@ -1,0 +1,42 @@
+/* 
+    Propiedades que se aplican a los flex-items
+    
+    -   Propiedad (flex)
+        Ejemplo: 
+
+            flex: 2;
+                flex-grow: 2;
+                flex-shrink: 1;
+                flex-basis: 0%;
+
+    -   Propiedad (order)
+        Ejemplo: 
+            order: 2;  // Indica que se mostrara el elemento en la segunda posición
+*/
+
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contenedor div {
+    border: 1px #CCC solid;
+    padding: 12px;
+    background: #FAFAFA;
+}
+
+.caja-1 {
+    flex: 2;
+    order: 2;
+}
+
+.caja-2 {
+    flex: 4;
+    order: 3;
+}
+
+.caja-3 {
+    flex: 2;
+    order: 1;
+}
