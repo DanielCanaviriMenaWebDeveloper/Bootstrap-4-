@@ -1,4 +1,14 @@
 /* 
+    Propiedades que se aplican al flex-container, para alinear elementos con respecto 
+    al Eje Principal(Main Axis) y Eje Secundario(Cross Axis)
+
+    -   Propiedad (align-items)
+        Ejemplo:: 
+            align-items: stretch(default) |  flex-start | flex-end | center | baseline
+
+
+
+    ===========================================================
     Propiedades que se aplican a los flex-items
     
     -   Propiedad (flex)
@@ -14,13 +24,46 @@
             order: 2;  // Indica que se mostrara el elemento en la segunda posición
 */
 
-
-.contenedor {
-    display: flex;
-    align-items: flex-start;
+* {
+    box-sizing: border-box;
 }
 
-.contenedor div {
+@media (min-width: 768px) {
+    .contenedor {
+        display: flex;
+        align-items: center;
+        align-items: flex-start;
+        align-items: flex-end;
+        align-items: baseline;
+        align-items: stretch;
+    }
+
+    .contenedor-2 {
+        display: flex;
+        justify-content: flex-start;
+        justify-content: center;
+        justify-content: flex-end;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly;
+    }
+
+    .content-caja {
+        width: 20%;
+        flex-basis: 25%;
+    }
+}
+
+.contenedor-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+
+.contenedor div, 
+.contenedor-2 div, 
+.contenedor-3 div {
     border: 1px #CCC solid;
     padding: 12px;
     background: #FAFAFA;
@@ -40,3 +83,10 @@
     flex: 2;
     order: 1;
 }
+
+.content-caja-3 {
+    flex-basis: 25%;
+}
+
+
+
