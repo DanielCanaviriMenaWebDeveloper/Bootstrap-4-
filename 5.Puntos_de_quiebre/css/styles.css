@@ -1,0 +1,69 @@
+/* 
+    BREAKPOINTS
+    * Extra small (xs)   :  <   576px
+    * Small          (sm)  : >=  576px
+    * Medium      (md)  : >= 768px
+    * Large          (lg)    : >= 992px
+    * Extra large  (xl)   : >= 1200px
+*/
+
+/*
+=============================================
+    RESPONSIVE BREAKPOINTS
+    Extra small devices (portrait phones, less than 576px)
+    No media query for `xs` since this is the default in Bootstrap 
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+/* Dispositivos pequeños (teléfonos horizontales, 576 px y más) */
+@media (min-width: 576px) {
+    body {
+        background: rgb(187, 35, 35);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* Dispositivos medianos (tablets, 768px y más) */
+@media (min-width: 768px) {
+    body {
+        background: rgb(206, 94, 20);
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+/* Dispositivos grandes (escritorios, 992px y más) */
+@media (min-width: 992px) { 
+    body {
+        background: rgb(199, 172, 18);
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* Dispositivos extra grandes (escritorios grandes, 1200 px y más) */
+@media (min-width: 1200px) { 
+    body {
+        background: rgb(84, 199, 18);
+    }
+ }
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* Dispositivos extrapequeños (teléfonos verticales, menos de 576 px)*/
+@media (max-width: 575px) {
+    body {
+        background: rgb(199, 18, 18);;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Reglas CSS */
+}
+
+@media (max-width: 991px) {
+    /* Reglas CSS */
+}
+
+@media (max-width: 1199px) {
+   /* Reglas CSS */
+}
+
+
