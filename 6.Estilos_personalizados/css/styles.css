@@ -2,3 +2,13 @@
     background: red;
     border-color: red;
 }
+
+.btn-primary:hover {
+    background: rgb(133, 6, 6);
+    border-color: rgb(31, 3, 3);    
+}
+.btn-primary:hover {
+    background: rgb(133, 6, 6);
+    border-color: rgb(31, 3, 3);    
+}
+
